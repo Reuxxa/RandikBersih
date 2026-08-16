@@ -1,0 +1,8 @@
+# Abaikan file foto hasil upload laporan dari masyarakat
+asset/uploads/*
+
+# Abaikan file konfigurasi editor dan sistem operasi
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
