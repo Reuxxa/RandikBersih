@@ -10,7 +10,7 @@ Kunjungi versi live dari aplikasi ini melalui tautan berikut:
   * *Password:* 12345678 
 *(Catatan: Akses admin di atas menggunakan data dummy khusus untuk keperluan peninjauan UI/UX dan pengujian fitur portofolio).*
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Frontend:** HTML5, CSS3, JavaScript
 * **Backend:** PHP Native
 * **Database:** MySQL
