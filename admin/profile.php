@@ -1,4 +1,5 @@
 <?php
+include 'cek_sesi.php';
 include 'db.php'; // Pastikan untuk menghubungkan ke database
 include 'notif.php';
 
