@@ -2,7 +2,7 @@
 
 Sistem Informasi Pelaporan Sampah berbasis Web untuk Asrama Putri Randik. Aplikasi ini dirancang untuk memudahkan masyarakat dalam melaporkan masalah penumpukan sampah, sekaligus menyediakan dasbor admin untuk melacak dan mengelola setiap laporan yang masuk.
 
-## 🚀 Live Demo
+## Live Demo
 Kunjungi versi live dari aplikasi ini melalui tautan berikut:
 * **Halaman Publik (User):** [randikbersih.infinityfreeapp.com](http://randikbersih.infinityfreeapp.com)
 * **Dashboard Admin:** [randikbersih.infinityfreeapp.com/admin](http://randikbersih.infinityfreeapp.com/admin)
@@ -15,7 +15,7 @@ Kunjungi versi live dari aplikasi ini melalui tautan berikut:
 * **Backend:** PHP Native
 * **Database:** MySQL
 
-## ✨ Fitur Utama
+## Fitur Utama
 **Halaman Publik (User)**
 * **Manajemen Akun:** Fitur pendaftaran (Register) dan masuk (Login) untuk pelapor.
 * **Formulir Pelaporan:** Pengajuan laporan masalah sampah yang terintegrasi dengan fitur unggah lampiran foto.
@@ -25,7 +25,7 @@ Kunjungi versi live dari aplikasi ini melalui tautan berikut:
 * **Manajemen Laporan:** Verifikasi dan pembaruan status laporan (Masuk -> Diproses -> Selesai).
 * **Manajemen Kategori:** Penyesuaian jenis/kategori sampah dan titik lokasi penumpukan.
 
-## 💻 Instalasi Lokal (Development)
+## Instalasi Lokal (Development)
 Jika ingin menjalankan proyek ini secara lokal di komputer Anda, ikuti langkah-langkah berikut:
 
 1. **Clone Repositori:** Pindahkan folder `RandikBersih` ke dalam direktori *root* server lokal Anda:
