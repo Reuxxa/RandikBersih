@@ -1,23 +1,41 @@
-# RandikBersih
+# RandikBersih ♻️
 
-Sistem Informasi Pelaporan Sampah berbasis Web untuk Asrama Putri Randik. Aplikasi ini dirancang untuk memudahkan masyarakat dalam melaporkan masalah sampah, serta menyediakan panel admin untuk mengelola dan memantau laporan tersebut.
+Sistem Informasi Pelaporan Sampah berbasis Web untuk Asrama Putri Randik. Aplikasi ini dirancang untuk memudahkan masyarakat dalam melaporkan masalah penumpukan sampah, sekaligus menyediakan dasbor admin untuk melacak dan mengelola setiap laporan yang masuk.
 
-## Fitur Utama
-- **Halaman Publik (User)**: Halaman utama, edukasi, pendaftaran akun, login, dan fitur pelaporan sampah lengkap dengan lampiran foto.
-- **Halaman Admin (Petugas)**: Dashboard manajemen data pelapor, penyesuaian jenis/kategori sampah, lokasi, dan verifikasi serta pengelolaan status laporan (Masuk, Diproses, Selesai).
+## 🚀 Live Demo
+Kunjungi versi live dari aplikasi ini melalui tautan berikut:
+* **Halaman Publik (User):** [randikbersih.infinityfreeapp.com](http://randikbersih.infinityfreeapp.com)
+* **Dashboard Admin:** [randikbersih.infinityfreeapp.com/admin](http://randikbersih.infinityfreeapp.com/admin)
+  * *Username:* issa
+  * *Password:* 12345678 
+*(Catatan: Akses admin di atas menggunakan data dummy khusus untuk keperluan peninjauan UI/UX dan pengujian fitur portofolio).*
 
-## Persyaratan Sistem
-- Web Server lokal (Laragon / XAMPP / WAMP)
-- PHP Native
-- MySQL Database
+## 🛠️ Tech Stack
+* **Frontend:** HTML5, CSS3, JavaScript
+* **Backend:** PHP Native
+* **Database:** MySQL
 
-## Cara Instalasi
-1. Pindahkan atau *clone* folder `RandikBersih` ke dalam direktori root server lokal Anda:
-   - Jika menggunakan **Laragon**: letakkan di `C:\laragon\www\`
-   - Jika menggunakan **XAMPP**: letakkan di `C:\xampp\htdocs\`
-2. Buka aplikasi Laragon/XAMPP Anda, lalu jalankan (Start) layanan **Apache** dan **MySQL**.
-3. Buka pengelola database Anda (HeidiSQL atau phpMyAdmin) dan buat database baru dengan nama yang harus persis seperti ini: **`website_pelaporan_sampah`**
-4. Lakukan **Import** file `website_pelaporan_sampah.sql` (yang ada di folder ini) ke dalam database tersebut.
-5. Selesai! Buka browser Anda dan akses aplikasi melalui:
-   - `http://localhost/RandikBersih` atau `http://randikbersih.test` (untuk pengguna Laragon).
-   - Untuk halaman admin, akses `http://localhost/RandikBersih/admin`
+## ✨ Fitur Utama
+**Halaman Publik (User)**
+* **Manajemen Akun:** Fitur pendaftaran (Register) dan masuk (Login) untuk pelapor.
+* **Formulir Pelaporan:** Pengajuan laporan masalah sampah yang terintegrasi dengan fitur unggah lampiran foto.
+
+**Halaman Admin (Petugas)**
+* **Dashboard Analitik:** Ringkasan status data pelaporan secara *real-time*.
+* **Manajemen Laporan:** Verifikasi dan pembaruan status laporan (Masuk -> Diproses -> Selesai).
+* **Manajemen Kategori:** Penyesuaian jenis/kategori sampah dan titik lokasi penumpukan.
+
+## 💻 Instalasi Lokal (Development)
+Jika ingin menjalankan proyek ini secara lokal di komputer Anda, ikuti langkah-langkah berikut:
+
+1. **Clone Repositori:** Pindahkan folder `RandikBersih` ke dalam direktori *root* server lokal Anda:
+   - Laragon: `C:\laragon\www\`
+   - XAMPP: `C:\xampp\htdocs\`
+2. **Jalankan Server:** Buka aplikasi Laragon/XAMPP, lalu jalankan layanan **Apache** dan **MySQL**.
+3. **Konfigurasi Database:** 
+   - Buka phpMyAdmin atau HeidiSQL.
+   - Buat database baru dengan nama persis: **`website_pelaporan_sampah`**
+   - Lakukan **Import** file `website_pelaporan_sampah.sql` yang tersedia di dalam folder repositori ini.
+4. **Akses Aplikasi:** Buka *browser* dan kunjungi:
+   - Halaman User: `http://localhost/RandikBersih` (atau `http://randikbersih.test` untuk Laragon)
+   - Halaman Admin: `http://localhost/RandikBersih/admin`
